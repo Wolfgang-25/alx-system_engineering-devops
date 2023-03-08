@@ -7,3 +7,4 @@ ls -la displays current directory contents, including hidden files (starting wit
 ls -na displays current directory contents in Long format with user and group IDs displayed numerically and hidden files (starting with .)
 mkdir /tmp/my_first_directory creates a directory named my_first_directory in the /tmp/ directory
 mv /tmp/betty /tmp/my_first_directory moves betty from /tmp to /tmp/my_first_directory
+rm /tmp/my_first_directory/betty deletes the file betty from /tmp/my_first_directory
