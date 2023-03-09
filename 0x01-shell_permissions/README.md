@@ -10,4 +10,4 @@ chmod ugo+x hello adds execution permission to the owner, the group owner and th
 chmod 007 hello sets the permission to the file hello as follows:Owner: no permission at all Group: no permission at all Other users: all the permissions
 chmod 753 hello
 chmod --reference=olleh hello sets the mode of the file hello the same as olleh’s mode
-chmod -R ugo+X hello adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+chmod -R ugo+X . adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
