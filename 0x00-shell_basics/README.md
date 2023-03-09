@@ -1,2 +1,3 @@
 #!/bin/bash
-mv [[:upper]]* /tmp/u moves all files beginning with an uppercase letter to the directory /tmp/u.
+mv [[:upper]]* /tmp/u moves all files beginning with an uppercase letter to the directory /tmp/u
+rm *~ deletes all files ending with ~
