@@ -12,3 +12,4 @@ rm -r /tmp/my_first_directory deletes my_first_directory from tmp
 cd - changes the working directory to the previous one
 ls -la . .. /boot lists the content of the working directory its parent directory and /boot directory all in long format showing hidden files
 file prints the type of file iamafile is in the tmp directory
+ln -s creates the symbolic link
