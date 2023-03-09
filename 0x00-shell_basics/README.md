@@ -13,3 +13,4 @@ cd - changes the working directory to the previous one
 ls -la . .. /boot lists the content of the working directory its parent directory and /boot directory all in long format showing hidden files
 file prints the type of file iamafile is in the tmp directory
 ln -s creates the symbolic link
+cp -u --recursive --no-clobber --update *.html copies all html files in the working and parent directories 
