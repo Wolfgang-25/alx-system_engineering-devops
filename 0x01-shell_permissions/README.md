@@ -7,3 +7,4 @@ touch hello prints an empty file called hello
 chmod u+x hello adds execute permission to the owner of the file hello
 chmod u=x,g=x,o=r hello adds execute permission to the owner and the group owner, and read permission to  users, to the file hello
 mkdir -m 751 my_dir creates a directory called my_dir with permissions 751 in the working directory
+chgrp school hello changes the group owner to school for the file hello
