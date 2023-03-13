@@ -6,3 +6,4 @@ cat /etc/passwd /etc/hosts displays the content of /etc/passwd and /etc/hosts
 tail /etc/passwd displays the last 10 lines of /etc/passwd
 head /etc/passwd displays the first 10 lines of /etc/passwd
 head -3 iacta | tail +3 displays the third line of the file iacta
+echo 'Best School' > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School
