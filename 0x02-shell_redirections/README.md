@@ -18,4 +18,4 @@ grep -c "bin" /etc/passwd displays the number of lines that contain the pattern 
 grep -A 3 "root" /etc/passwd displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 grep -v "bin" /etc/passwd displays  all the lines in the file /etc/passwd that do not contain the pattern “bin”
 grep '^[[:alpha:]]' /etc/ssh/sshd_config displays  all lines of the file /etc/ssh/sshd_config starting with a lette
-echo ABc | tr Ac Ze replaces all characters A and c from input to Z and e respectively
+tr "A" "Z" | tr "c" "e" replaces all characters A and c from input to Z and e respectively
