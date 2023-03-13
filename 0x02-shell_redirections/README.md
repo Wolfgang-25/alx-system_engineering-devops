@@ -21,3 +21,4 @@ grep '^[[:alpha:]]' /etc/ssh/sshd_config displays  all lines of the file /etc/ss
 tr "A" "Z" | tr "c" "e" replaces all characters A and c from input to Z and e respectively
 tr -d "cC" removes all letters c and C from input
 rev a script that reverse its input
+cut -d ':' -f 1,6 /etc/passwd displays all users and their home directories, sorted by users
