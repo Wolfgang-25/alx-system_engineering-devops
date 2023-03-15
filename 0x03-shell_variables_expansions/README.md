@@ -12,4 +12,4 @@ echo $(($POWER / $DIVIDE)) prints the result of POWER divided by DIVIDE
 echo $((BREATH**LOVE)) displays the result of BREATH to the power LOVE BREATH and LOVE are environment variables
 echo $((2#$BINARY)) converts a number from base 2 to base 10.
 echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" prints all possible combinations of two letters, except oo
-printf "%.2f \n" $NUM prints a number with two decimal places, followed by a new line.The number will be stored in the environment variable NUM.
+printf "%.2f\n" $NUM prints a number with two decimal places, followed by a new line.The number will be stored in the environment variable NUM.
