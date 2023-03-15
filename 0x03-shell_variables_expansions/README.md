@@ -5,3 +5,4 @@ export PATH=$PATH:/action adds /action to the PATH. /action should be the last d
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) counts the number of directories in the PATH
 printenv lists environment variables
 set lists all local variables and environment variables, and functions
+BEST="School" creates a new local variable Name: BEST Value: School
