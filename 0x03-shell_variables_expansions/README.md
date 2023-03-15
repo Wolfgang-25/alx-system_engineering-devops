@@ -15,3 +15,4 @@ echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" prints all possible combinations 
 printf "%.2f\n" $NUM prints a number with two decimal places, followed by a new line.The number will be stored in the environment variable NUM.
 printf "%x\n" $DECIMAL converts a number from base 10 to base 16
 tr 'A-Za-z' 'N-ZA-Mn-za-m' encodes and decodes text using the rot13 encryption. Assume ASCII
+paste -d, - - | cut -d, -f1 prints every other line from the input, starting with the first line
