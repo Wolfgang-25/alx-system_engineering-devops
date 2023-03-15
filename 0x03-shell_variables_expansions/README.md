@@ -6,3 +6,4 @@ echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) counts the number of directorie
 printenv lists environment variables
 set lists all local variables and environment variables, and functions
 BEST="School" creates a new local variable Name: BEST Value: School
+export BEST="School" creates a new global variable
